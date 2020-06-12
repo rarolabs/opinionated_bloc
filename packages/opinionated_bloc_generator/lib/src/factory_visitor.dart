@@ -5,7 +5,9 @@ import 'models.dart';
 
 /// Visitor to parse de AST
 class FactoryVisitor extends SimpleElementVisitor {
+  /// List of events found in AST
   List<OpinionatedEvent> events = [];
+
   @override
   visitConstructorElement(ConstructorElement element) {
     events.add(

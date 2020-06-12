@@ -1,3 +1,4 @@
+/// Entrypoint for the generator
 library opinionated_bloc_generator;
 
 import 'package:build/build.dart';

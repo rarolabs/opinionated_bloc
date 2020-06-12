@@ -58,7 +58,7 @@ mixin ${blocName}Opinionated on Bloc<${modelName}Event, ${modelName}State>
   }
 
   String _handleEvents() {
-    if (events.length == 0) {
+    if (events.isEmpty) {
       return null;
     } else if (events.length == 1) {
       return '''

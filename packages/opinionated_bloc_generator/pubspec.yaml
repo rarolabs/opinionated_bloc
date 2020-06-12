@@ -1,6 +1,7 @@
 name: opinionated_bloc_generator
-description: An opinionated way to use bloc library
-version: 0.0.1
+description: This generator aims to reduce boilerplate in an opinionated way. Opinionated Bloc Generator is the way we reduce this kind of bloc boilerplate in ours projects.
+
+version: 0.220
 homepage: https://github.com/rarolabs/opinionated_bloc
 
 environment:
