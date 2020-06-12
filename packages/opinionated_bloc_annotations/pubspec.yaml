@@ -1,0 +1,7 @@
+name: opinionated_bloc_annotations
+description: Annotations for opinionated_bloc library
+version: 0.0.1
+homepage: https://github.com/rarolabs/opinionated_bloc
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"

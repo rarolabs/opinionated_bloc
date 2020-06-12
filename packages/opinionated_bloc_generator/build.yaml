@@ -1,0 +1,13 @@
+targets:
+  opinionated_bloc_generator:opinionated_bloc_generator:
+    builders:
+      opinionated_bloc_generator|opinionatedBlocGenerator:
+        enabled: True
+
+builders:
+  opinionatedBlocGenerator:
+    import: 'package:opinionated_bloc_generator/opinionated_bloc_generator.dart'
+    builder_factories: ['opinionatedBlocBuilder']
+    build_extensions: { ".dart": [".opinionated.dart"] }
+    build_to: source
+    auto_apply: dependents
