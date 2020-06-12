@@ -30,11 +30,6 @@ class CalculatorBloc extends Bloc<CalculatorEvent, CalculatorState>
   }
 
   @override
-  Stream<CalculatorState> onMultiply(int value) async* {
-    throw UnimplementedError();
-  }
-
-  @override
   Stream<CalculatorState> onAdd(int value) {
     throw UnimplementedError();
   }
